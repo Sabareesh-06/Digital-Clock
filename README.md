@@ -1,16 +1,75 @@
-# React + Vite
+# 🕐 Digital Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal **Digital Clock** web app built with **React + Vite**. Displays the current time in 12-hour format, updating every second in real time.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Coming soon — deploy on [Vercel](https://vercel.com) or [Netlify](https://netlify.com)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🕒 Real-time clock — updates every second
+- 🌙 12-hour format with AM/PM
+- ⚛️ Built with React `useState` & `useEffect`
+- ⚡ Powered by Vite for fast development
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Version |
+|------------|---------|
+| React      | ^19.x   |
+| Vite       | ^8.x    |
+| JavaScript | ES2022+ |
+
+## 📦 Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) v18+
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Sabareesh-06/Digital-Clock.git
+
+# Navigate into the project
+cd Digital-Clock
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+digital-clock/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── App.jsx           # Root component
+│   ├── DigitalClock.jsx  # Clock component
+│   ├── App.css
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Sabareesh** — [@Sabareesh-06](https://github.com/Sabareesh-06)
