@@ -1,17 +1,17 @@
 # Digital Clock
 
-A clean and minimal **Digital Clock** web app built with **React + Vite**. Displays the current time in 12-hour format, updating every second in real time.
+Minimalistic **Digital Clock** application using **React + Vite**. Shows the current time in 12 hours format, ticking once every second.
 
 ## Live Demo
 
-> Coming soon — deploy on [Vercel](https://vercel.com) or [Netlify](https://netlify.com)
+> Live demo to be uploaded soon — deploy on [Vercel](https://vercel.com) or [Netlify](https://netlify.com)
 
 ## Features
 
-- Real-time clock — updates every second
-- 12-hour format with AM/PM
-- Built with React `useState` & `useEffect`
-- Powered by Vite for fast development
+- Real-time clock - ticks every second
+- 12-hour format
+- Uses React hooks like `useState` & `useEffect`
+- Uses Vite for rapid development
 
 ## Tech Stack
 
@@ -24,7 +24,7 @@ A clean and minimal **Digital Clock** web app built with **React + Vite**. Displ
 ## Getting Started
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) v18+
+- Node.js v18+
 
 ### Installation
 
@@ -38,11 +38,11 @@ cd Digital-Clock
 # Install dependencies
 npm install
 
-# Start the development server
+# Run development server
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Navigate to http://localhost:5173
 
 ### Build for Production
 
@@ -57,8 +57,8 @@ digital-clock/
 ├── public/
 │   └── favicon.svg
 ├── src/
-│   ├── App.jsx           # Root component
-│   ├── DigitalClock.jsx  # Clock component
+│   ├── App.jsx           # root component
+│   ├── DigitalClock.jsx  # clock component
 │   ├── App.css
 │   └── index.css
 ├── index.html
@@ -66,10 +66,10 @@ digital-clock/
 └── vite.config.js
 ```
 
-## License
+### License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+The license for this project is the **MIT License** — more information in the [LICENSE](LICENSE) file.
 
-## Author
+### Author
 
 **Sabareesh** — [@Sabareesh-06](https://github.com/Sabareesh-06)
