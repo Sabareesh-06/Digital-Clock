@@ -1,19 +1,19 @@
-# 🕐 Digital Clock
+# Digital Clock
 
 A clean and minimal **Digital Clock** web app built with **React + Vite**. Displays the current time in 12-hour format, updating every second in real time.
 
-## 🚀 Live Demo
+## Live Demo
 
 > Coming soon — deploy on [Vercel](https://vercel.com) or [Netlify](https://netlify.com)
 
-## ✨ Features
+## Features
 
-- 🕒 Real-time clock — updates every second
-- 🌙 12-hour format with AM/PM
-- ⚛️ Built with React `useState` & `useEffect`
-- ⚡ Powered by Vite for fast development
+- Real-time clock — updates every second
+- 12-hour format with AM/PM
+- Built with React `useState` & `useEffect`
+- Powered by Vite for fast development
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Version |
 |------------|---------|
@@ -21,7 +21,7 @@ A clean and minimal **Digital Clock** web app built with **React + Vite**. Displ
 | Vite       | ^8.x    |
 | JavaScript | ES2022+ |
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) v18+
@@ -50,7 +50,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 npm run build
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 digital-clock/
@@ -66,10 +66,10 @@ digital-clock/
 └── vite.config.js
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Sabareesh** — [@Sabareesh-06](https://github.com/Sabareesh-06)
